@@ -1,0 +1,301 @@
+.fixed-menu {
+    position: fixed;
+    color: #01a9ac;
+    z-index: 1;
+    font-family: Prata;
+    font-size: 22px;
+}
+
+.fixed-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 35px 48px 35px 48px;
+}
+
+.fixed-menu li a {
+    text-decoration: none;
+    color: #01a9ac;
+}
+
+.h_div img {
+    height: 423px;
+    left: 133px;
+    bottom: 106px;
+    position: absolute;
+}
+
+.h_div {
+    background-color: #003372;
+    width: 50%;
+    float: left;
+    height: 50vw;
+    position: relative;
+}
+
+.div-hello {
+    float:right;
+    right: 57px;
+    bottom: 107px;
+    position: absolute;
+    z-index: 1;
+}
+
+.h_div h1 {
+    font-family: Prata;
+    font-size: 150px;
+    text-decoration: underline;
+}
+
+.h_div p {
+    font-family: Inconsolata;
+    font-size: 18px;
+    text-align: right;
+}
+
+.d_div {
+    background-color: #71e2dc;
+    width: 25%;
+    float: left;
+    height: 50vw;
+    position: relative;
+}
+
+.d_div p {
+    font-family: Inconsolata;
+    font-size: 18px;
+    text-align: right;
+}
+
+.d_div img {
+    height: 278px;
+    /*padding-top: 916px;*/
+    /*right: 77px;*/
+    bottom: 106px;
+    left: 50px;
+    position: absolute;
+}
+
+.div-in-d {
+    float: right;
+    color: #08716c;
+    right: 57px;
+    bottom: 107px;
+    position: absolute;
+    z-index: 1;
+}
+
+.p_div {
+    background-color: #f7989c;
+    width: 25%;
+    float: left;
+    height: 50vw;
+    position: relative;
+}
+
+.p_div img {
+    height: 278px;
+    left: 50px;
+    bottom: 106px;
+    position: absolute;
+}
+
+.p_div p {
+    font-family: Inconsolata;
+    font-size: 18px;
+    text-align: right;
+}
+
+.div-in-p {
+    float: right;
+    color: #e1777b;
+    right: 57px;
+    bottom: 107px;
+    position: absolute;
+    z-index: 1;
+}
+
+h2 {
+    font-family: Prata;
+    font-size: 100px;
+}
+
+.works_text {
+    color: #41ccc4;
+}
+
+.team_text_h {
+    color: #464577;
+}
+
+.contact_text_h {
+    color: #f3747b;
+    padding-top: 100px;
+}
+
+h3 {
+    font-family: Prata;
+    font-size: 50px;
+    color: #51b4af;
+}
+
+.scroll {
+    font-family: Inconsolata;
+    font-size: 18px;
+    text-align: center;
+    color: #306fbf;
+    padding: 40px;
+}
+
+.text_vertical_left {
+    font-family: Prata;
+    font-size: 33px;
+    transform: rotate(270deg);
+    color: #51b4af;
+    background-color: #75e3dd;
+    position: absolute;
+    z-index: 1;
+}
+
+.text_vertical_right {
+    font-family: Prata;
+    font-size: 33px;
+    transform: rotate(90deg);
+    color: #51b4af;
+    background-color: #75e3dd;
+    position: absolute;
+    z-index: 1;
+}
+
+.text_regular {
+    font-family: Inconsolata;
+    font-size: 18px;
+    color: #51b4af;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.text_regular_link {
+    font-family: Inconsolata;
+    font-size: 14px;
+    color: #2fdbd2;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.text_regular_team {
+    font-family: Inconsolata;
+    font-size: 14px;
+    color: #444355;
+    padding-left: 20px;
+}
+
+.pinnap {
+    position: relative;
+}
+
+.dining {
+    position: relative;
+}
+
+.city {
+    position: relative;
+}
+
+.works {
+    width: 100%;
+    position: relative;
+}
+
+
+.branding {
+    width: 100%;
+    position: relative;
+}
+
+.office_img {
+    float: left;
+}
+
+.office_adress {
+    float: left;
+    padding-left: 50px;
+}
+
+label {
+    font-family: Inconsolata;
+    font-size: 14px;
+    color: #f3747b;
+}
+
+input {
+    display:block;
+    border:none;
+    border-bottom: 2px solid #f3747b;
+    outline:none;
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    font-family: Inconsolata;
+    font-size: 14px;
+    display:block;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #f3747b;
+    width: 300px;
+    height: 30px;
+}
+
+.text_white {
+    color: #ffffff;
+}
+
+.text_turquoise {
+    color: #01a9ac;
+}
+
+.team {
+    width: 100%;
+}
+
+.team img {
+    width: 50vw;
+    position: absolute;
+    right: 0;
+}
+
+.team_text {
+    width: 50%;
+}
+
+.contact {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 25%;
+    background-color: #f7989c;
+    text-align: center;
+    position: relative;
+}
+
+.sm_icons {
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+    /*z-index: 1;*/
+}
+
+.small-icons {
+    z-index: 1;
+    /*display: inline-block;*/
+}
+
+.sm_sign {
+    /*padding-top: 100px;*/
+    width: 70vw;
+    /*display: inline-block;*/
+}

@@ -3,114 +3,148 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="/styles/website.css"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Prata" rel="stylesheet">
   </head>
   <body>
     <!-- To jest header z kolorowymi literami -->
-    <header>
-        <nav>
-            the offer portfolio about us contact
+    <header id="offer">
+        <nav class="fixed-menu">
+            <ul>
+                <li><a href="#offer">the offer</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about_us">about us</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
         </nav>
-        <div>
-            <h1>hello!</h1>
-            <img src="assets/h.svg">
-            <p>We are creative agency based in Warsaw, Poland</p>
-            <p>Creating projects for clients all over the world.</p>
+        <div class="h_div">
+            <div class="div-hello">
+                <h1 class="text_white">hello!</h1>
+                <p class="text_white">We are creative agency based in Warsaw, Poland</p>
+                <p class="text_white">Creating projects for clients all over the world.</p>
+            </div>
+            <img src="assets/h.svg" class="image-letter">
         </div>
-        <div>
-            <img src="assets/d.svg">
-            <p>Good design is our domain.</p>
-            <p>We work in multidisciplinary team.</p>
+        <div class="d_div">
+            <div class="div-in-d">
+                <p>Good design is our domain.</p>
+                <p>We work in multidisciplinary team.</p>
+            </div>
+            <img src="assets/d.svg" class="image-letter">
         </div>
-        <div>
-            <img src="assets/p.svg">
-            <p>We always select varied projects,</p>
-            <p>To step out our comfort zone.</p>
+        <div class="p_div">
+            <div class="div-in-p">
+                <p>We always select varied projects,</p>
+                <p>To step out our comfort zone.</p>
+            </div>
+            <img src="assets/p.svg" class="image-letter">
         </div>
     </header>
-    <main>
-        <section>
-            <p>Scroll down to find more about our studio</p>
-            <h2>works</h1>
-            <div>
-                <div>
+
+    <!-- Tu zaczyna się main i siatka bootstrapa -->
+
+    <main class="container">
+        <div class="scroll col-md-12">scroll down to find more about our studio</div>
+        <section class="works row">
+            <h2 class="works_text">works</h2>
+            <div class="pinapp" id="portfolio">
+                <div class="text_vertical_left">
                     branding&web
                 </div>
-                <img src="assets/pineapp.jpg">
+                <img src="assets/pineapp.jpg" class="col-md-6">
                 <!-- Ten div to male pionowe litery -->
             </div>
             <div>
                 <h3>pineapp.</h3>
-                <p>Period March-April</p>
-                <a href="">VISIT THE WEBSITE</a>
+                <p class="text_regular">Period: March-April 2016<p>
+                <p class="text_regular">Team: John (UI), Edwin (UX),<br>Jessica (Front-end)</p>
+                <a href="" class="text_regular_link">VISIT THE WEBSITE</a>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="dining row">
+            <div class="col-md-6">
                 <h3>healthy dining.</h3>
-                <p>Period March-April</p>
-                <a href="">VISIT THE WEBSITE</a>
+                <p class="text_regular">Period: March-April 2016<p>
+                <p class="text_regular">Team: John (UI), Edwin (UX),<br>Jessica (Front-end)</p>
+                <a href="" class="text_regular_link">VISIT THE WEBSITE</a>
             </div>
-            <div>
+            <div class="dining">
                 <!-- Ten div to male pionowe litery -->
-                <div>
+                <div class="text_vertical_right">
                     branding&mobile
                 </div>
-                <img src="assets/healthydining.jpg">
+                <img src="assets/healthydining.jpg" class="col-md-6">
             </div>
         </section>
-        <section>
-            <div>
-                <div>
+        <section class="branding row">
+            <div class="city">
+                <div class="text_vertical_left">
                     branding&web
                 </div>
-                <img src="assets/smartcity.jpg">
+                <img src="assets/smartcity.jpg" class="col-md-6">
                 <!-- Ten div to male pionowe litery -->
             </div>
-            <div>
+            <div class="col-md-6">
                 <h3>smart city.</h3>
-                <p>Period March-April</p>
-                <a href="">VISIT THE WEBSITE</a>
+                <p class="text_regular">Period: March-April 2016<p>
+                <p class="text_regular">Team: John (UI), Edwin (UX),<br>Jessica (Front-end)<b></p>
+                <a href="" class="text_regular_link">VISIT THE WEBSITE</a>
             </div>
         </section>
-        <section>
-            <h2>
+        <section class="team row" id="about_us">
+            <h2 class="team_text_h">
                 team
             </h2>
-            <div>
-                <img src="assets/team.jpg">
+            <div class="col-md-6">
+                <img src="assets/team.jpg" class="team_img">
             </div>
-            <div>
-                <h4>
-                    How we started
-                </h4>
-                <p>Lorem ipsum</p>
+            <div class="team_text col-md-6">
+                <h3>How we started</h3>
+                <p class="text_regular_team">Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.</p>
+
+                <p class="text_regular_team">Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.</p>
+
+                <p class="text_regular_team">Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.</p>
             </div>
         </section>
-        <section>
-            <h2>
+        <section class="contact row" id="contact">
+            <h2 class="contact_text_h">
                 contact
             </h2>
-            <div>
+            <div class="col-md-6">
                 <form>
-                    Tu będzie formularz
+                    <label for="name">name</label><br>
+                    <input id="name" type="text"><br>
+                    <label for="email">e-mail</label><br>
+                    <input id="email" type="email"><br>
+                    <label for="comment">topic</label><br>
+                    <textarea id="comment"></textarea>
                 </form>
             </div>
             <div>
-                <img src="assets/office.jpg">
-                <div>
-                    Our office is located in the heart of Warsaw.
+                <div class="office_img col-md-3">
+                    <img src="assets/office.jpg">
+                </div>
+                <div class="office_adress col-md-3">
+                    <p class="text_regular_team">Our office is located in the heart of Warsaw<p>
+                    <p class="text_regular_team">Feel free to say hello!<p>
+                    <p class="text_regular_team">Warsaw St. 23/21<br>
+                    03-323 Warsaw,<br>
+                    POLAND<p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div>
-            <img src="assets/pinterest.svg">
-            <img src="assets/twitter.svg">
-            <img src="assets/facebsook.svg">
-            <img src="assets/instagram.svg">
+        <div class="small-icons">
+            <img src="assets/pinterest.svg" class="sm_icons">
+            <img src="assets/twitter.svg" class="sm_icons">
+            <img src="assets/facebook.svg" class="sm_icons">
+            <img src="assets/instagram.svg" class="sm_icons">
         </div>
+        <img src="assets/socialmedia.svg" class="sm_sign">
     </footer>
   </body>
 </html>
